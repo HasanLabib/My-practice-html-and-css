@@ -11,3 +11,6 @@ nav li a {
   text-decoration: none;
   color: #333;
 }
+audio {
+  display: block;
+}
