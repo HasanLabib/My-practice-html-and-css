@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table {
+        width: 20%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 12px 15px;
+        border: 2px dotted #4a2525;
+        text-align: center;
+      }
+
+      th {
+        background-color: #d955e0;
+      }
+      th:hover {
+        color: wheat;
+        background-color: #000;
+      }
+
+      tr:hover {
+        background-color: #69a6e0b9;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Learning table creation</h1>
+      <table>
+        <caption>
+          My Table
+        </caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Occupation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>
+              <input type="text" name="name" id="name" />
+            </td>
+            <td>
+              <input type="number" name="age" id="age" />
+            </td>
+            <td>
+              <input type="text" name="country" id="country" />
+            </td>
+            <td>
+              <input type="text" name="occupation" id="occupation" />
+            </td>
+          </tr> -->
+
+          <tr>
+            <td>Labib</td>
+            <td>25</td>
+            <td>Bangladesh</td>
+            <td>Web Developer</td>
+          </tr>
+          <tr>
+            <td>Imtiaz</td>
+            <td>28</td>
+            <td>Korea</td>
+            <td>Web Scrapper</td>
+          </tr>
+          <tr>
+            <td>Hasan</td>
+            <td>35</td>
+            <td>Usa</td>
+            <td>Manager</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total: 3</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
